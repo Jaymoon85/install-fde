@@ -19,7 +19,7 @@ rm firefox-dev-temp/ -r
 echo "---------------------------------------------------"
 echo "Adding Firefox Developer Edition to applications..."
 echo "---------------------------------------------------"
-touch ~/.local/share/applications/firefox-developer.desktop
+touch ~/.local/share/applications/firefox-developer-edition.desktop
 echo "[Desktop Entry]
 Version=1.0
 Name=Firefox Developer Edition
