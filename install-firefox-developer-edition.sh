@@ -4,7 +4,7 @@ echo "Downloading Firefox Developer Edition..."
 echo "---------------------------------------------------"
 mkdir firefox-dev-temp
 cd firefox-dev-temp
-wget https://download-installer.cdn.mozilla.net/pub/devedition/releases/58.0b12/linux-x86_64/en-US/firefox-58.0b12.tar.bz2
+wget "https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=linux64&lang=en-US"
 echo "---------------------------------------------------"
 echo "Installing Firefox Developer Edition..."
 echo "---------------------------------------------------"
@@ -83,4 +83,3 @@ Name=Open a New Private Window
 Exec=/usr/lib64/firefox-developer-edition/firefox --private-window %u" > ~/.local/share/applications/firefox-developer-edition.desktop
 echo ""
 echo ": Succesfully installed Firefox Developer Edition :"
-
